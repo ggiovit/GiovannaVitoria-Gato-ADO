@@ -5,14 +5,13 @@ var gato = /** @class */ (function () {
         this.idade = idade;
     }
     gato.prototype.miar = function () {
-        console.log("".concat(this.nome, " est\u00E1 miando muito: Miauuu!"));
+        console.log("".concat(this.nome, " est\u00E1 miando: Miauuu!"));
     };
     gato.prototype.arranhar = function () {
         console.log("".concat(this.nome, " est\u00E1 arranhando o sof\u00E1. Pare com isso!"));
     };
     return gato;
 }());
-
 //criando os dois objetos 
 var gato1 = new gato("Levi", "Laranja", 4); //ambos são meu gatos hihi
 var gato2 = new gato("Cacau", "Preto", 2);
