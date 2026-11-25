@@ -1,5 +1,5 @@
-# PI-ADO2
-ADO 2 – Introdução a Orientação a Objetos
+# PI-ADO
+ADO – Introdução a Orientação a Objetos
 
 1. Crie um projeto em TypeScript no padrão “<SeuNomeSobreNome>ADO1”.
 Ex: JoaoSilvaADO1
