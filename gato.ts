@@ -9,21 +9,23 @@ class Gato {
         this.idade = idade;
     }
 
-    miar() {
+    miar(): void {
         console.log(`${this.nome} está miando muito: Miauuu!`);
     }
 
-    arranhar() {
+    arranhar(): void {
         console.log(`${this.nome} está arranhando o sofá. Pare com isso!`);
     }
 }
 
-// Criando os dois objetos 
-gato1 = new Gato("Levi", "Laranja", 4); // ambos são meus gatos hihi
-gato2 = new Gato("Cacau", "Preto", 2);
+// Criando os dois objetos
+const gato1 = new Gato("Levi", "Laranja", 4); // ambos são meus gatos hihi
+const gato2 = new Gato("Cacau", "Preto", 2);
 
-console.log("Nome do gato 1: ", gato1.nome); 
+// Exibindo os nomes dos gatos
+console.log("Nome do gato 1: ", gato1.nome);
 console.log("Nome do gato 2: ", gato2.nome);
 
+// Executando os métodos
 gato1.miar();
 gato2.arranhar();
